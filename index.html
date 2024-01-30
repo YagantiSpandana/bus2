@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>ONLINE BUS BOOKING</title>
+        <link rel="icon" href="./pictures/icon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="main_h1"class="container">
+            <h1>PUBLIC ONLINE BUS SERVICES</h1>
+            <div class="nav" class="row">
+                <div class="col text-center"><a href="index.html"class="col-md-3">Home</a></div>
+                <div class="col text-center"><a href="/travels.html"class="col-md-3">Cancel ticket</a></div>
+                <div class="col text-center"><a href="/cancel.html"class="col-md-3">Travels Available</a></div>
+                <div class="col text-center"><a href="/contact.html"class="col-md-3">Contact us</a></div>
+            </div>
+            <div class="main_head" class="container"> 
+                <!--main_head-->
+                <pre class="col"><h2>Make your journey comfortable 
+    with public services
+                </h2></pre>
+                <a href="index.html" class="an" class="col"><img src="./pictures/icon.png" class="img"></a>
+            </div>
+            <div>
+                <h1 class="rotes_main"class="row">Available routes</h1>
+                <div class="routes1"class="row">
+                    <ul class="col">
+                        <li class="h5"class="row">Hyderad-Chennai</li>
+                        <li class="h5"class="row">Hyderad-Tirupati</li>
+                        <li class="h5"class="row">Hyderad-Banglore</li>
+                        <li class="h5" class="row">Hyderad-Vizag</li>
+                    </ul>
+                    <ul class="col">
+                        <li class="h5" class="row">Chennai-Hyderad</li>
+                        <li class="h5" class="row">Chennai-Tirupati</li>
+                        <li class="h5" class="row">Chennai-Banglore</li>
+                        <li class="h5" class="row">Chennai-Vizag</li>
+                    </ul>
+                    <ul class="col">
+                        <li class="h5" class="row">Tirupati-Hyderad</li>
+                        <li class="h5" class="row">Tirupati-Chennai</li>
+                        <li class="h5" class="row">Tirupati-Banglore</li>
+                        <li class="h5" class="row">Tirupati-Vizag</li>
+                    </ul>
+                    <ul class="col">
+                        <li class="h5" class="row">Banglore-Hyderad</li>
+                        <li class="h5" class="row">Banglore-Chennai</li>
+                        <li class="h5" class="row">Banglore-Tirupati</li>
+                        <li class="h5" class="row">Banglore-Vizag</li>
+                    </ul>
+                    <ul class="col">
+                        <li class="h5" class="row">Vizag-Hyderad</li>
+                        <li class="h5" class="row">Vizag-Chennai</li>
+                        <li class="h5" class="row">Vizag-Tirupati</li>
+                        <li class="h5" class="row">Vizag-Banglore</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_main" class="container">
+                <h5 class="search_head" class="row">Search here</h5>
+                <form class="search" class="row">
+                    <label class="h4" class="col">From:</label>
+                    <select id="f1" class="form-control" class="col">
+                        <option>Select</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                        <option>Tirupati</option>
+                        <option>Banglore</option>
+                        <option>Vizag</option>
+                    </select>
+                    <label class="h4" class="col">To:</label>
+                    <select id="f2" class="form-control" class="col">
+                        <option>Select</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                        <option>Tirupati</option>
+                        <option>Banglore</option>
+                        <option>Vizag</option>
+                    </select>
+                    <label class="h4" class="col">Date:</label>
+                    <input type="text" id="dates" class="form-control" class="col">
+                    <button onclick="return search()" class="form-control"class="col">Get Buses</button>
+                </form>
+            </div>
+            <div id="adding" class="row"></div>
+        <div class="footer_main" class="container">
+            <div class="footer" class="row">
+                <pre class="col">
+                <p class="h2">Website:Public services pvt.lmt 
+Email:publicservive@gmail.com
+Contact:9374972839</p></pre>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
